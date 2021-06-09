@@ -13,7 +13,7 @@ if os.path.isfile(requirementPath):
 here = abspath(dirname(__file__))
 
 # Get the long description from the README file
-with open(join(here, 'README.rst'), encoding='utf-8') as buff:
+with open(join(here, 'README.md'), encoding='utf-8') as buff:
     long_description = buff.read()
 
 setup(
